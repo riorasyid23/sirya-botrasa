@@ -1,0 +1,363 @@
+version: "3.1"
+
+stories:
+- story: menyapa
+  steps:
+  - intent: menyapa
+  - action: utter_menyapa
+
+- story: afirmasi
+  steps:
+  - intent: afirmasi
+  - action: utter_afirmasi
+  - intent: tolakan
+  - action: utter_tolakan
+  - intent: selamattinggal
+  - action: utter_selamattinggal
+
+- story: apresiasi
+  steps:
+  - intent: apresiasi
+  - action: utter_apresiasi
+  - intent: tolakan
+  - action: utter_tolakan
+  - intent: selamattinggal
+  - action: utter_selamattinggal
+
+- story: salahkan
+  steps:
+  - intent: salahkan
+  - action: utter_salahkan
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+# User bertanya tentang pulau Buru
+- story: informasi pulau buru
+  steps:
+  - intent: informasi_pulau_buru
+  - action: utter_informasi_pulau_buru
+  - intent: ibukota_pulau_buru
+  - action: utter_ibukota_pulau_buru
+  - intent: lokasi_pulau_buru
+  - action: utter_lokasi_pulau_buru
+  - intent: ke_pulau_buru
+  - action: utter_ke_pulau_buru
+  - intent: cuaca_pulau_buru
+  - action: utter_cuaca_pulau_buru
+
+# User bertanya tentang sejarah dan wisata sejarah pulau Buru
+- story: sejarah pulau buru
+  steps:
+  - intent: sejarah_pulau_buru
+  - action: utter_sejarah_pulau_buru
+  - checkpoint: after_sejarah_pulau_buru
+
+- story: asal nama buru
+  steps:
+  - checkpoint: after_sejarah_pulau_buru
+  - intent: asal_nama_buru
+  - action: utter_asal_nama_buru
+
+- story: wisata atau tempat bersejarah
+  steps:
+  - checkpoint: after_sejarah_pulau_buru
+  - or:
+    - intent: wisata_sejarah
+    - intent: tempat_bersejarah
+  - action: utter_wisata_sejarah
+  - checkpoint: after_wisata_sejarah
+
+- story: benteng voc kayeli
+  steps:
+  - checkpoint: after_wisata_sejarah
+  - intent: benteng_voc_kayeli
+  - action: utter_benteng_voc_kayeli
+
+- story: benteng defensie
+  steps:
+  - checkpoint: after_wisata_sejarah
+  - intent: benteng_defensie
+  - action: utter_benteng_defensie
+
+- story: gua pulau buru
+  steps:
+  - checkpoint: after_wisata_sejarah
+  - intent: gua_pulau_buru
+  - action: utter_gua_pulau_buru
+
+# User bertanya tentang budaya pulau Buru
+- story: budaya pulau buru
+  steps:
+  - intent: budaya_pulau_buru
+  - action: utter_budaya_pulau_buru
+  - checkpoint: after_budaya_pulau_buru
+
+- story: masyarakat adat
+  steps:
+  - checkpoint: after_budaya_pulau_buru
+  - intent: masyarakat_adat
+  - action: utter_masyarakat_adat
+
+- story: kehidupan penduduk
+  steps:
+  - checkpoint: after_budaya_pulau_buru
+  - intent: kehidupan_penduduk
+  - action: utter_kehidupan_penduduk
+
+- story: suku pulau buru
+  steps:
+  - checkpoint: after_budaya_pulau_buru
+  - intent: suku_pulau_buru
+  - action: utter_suku_pulau_buru
+
+- story: bahasa pulau buru
+  steps:
+  - checkpoint: after_budaya_pulau_buru
+  - intent: bahasa_pulau_buru
+  - action: utter_bahasa_pulau_buru
+
+- story: festival tahunan
+  steps:
+  - checkpoint: after_budaya_pulau_buru
+  - intent: festival_tahunan
+  - action: utter_festival_tahunan
+
+
+# User bertanya tentang wisata pulau Buru
+- story: wisata pulau buru
+  steps:
+  - intent: wisata_pulau_buru
+  - action: utter_wisata_pulau_buru
+  - checkpoint: after_wisata_pulau_buru
+
+- story: transportasi pulau buru
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: transportasi_pulau_buru
+  - action: utter_transportasi_pulau_buru
+
+- story: kuliner pulau buru
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: kuliner_pulau_buru
+  - action: utter_kuliner_pulau_buru
+
+- story: danau rana
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: danau_rana
+  - action: utter_danau_rana
+
+- story: wisata air waiula
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: wisata_air_waiula
+  - action: utter_wisata_air_waiula
+
+- story: bukit dusun watampuli
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: bukit_dusun_watampuli
+  - action: utter_bukit_dusun_watampuli
+
+- story: bukit tatanggo
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: bukit_tatanggo
+  - action: utter_bukit_tatanggo
+
+- story: pantai baikole
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_baikole
+  - action: utter_pantai_baikole
+
+- story: pantai lala
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_lala
+  - action: utter_pantai_lala
+
+- story: pantai ratu
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_ratu
+  - action: utter_pantai_ratu
+
+- story: pantai talaga
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_talaga
+  - action: utter_pantai_talaga
+
+- story: pantai jikumerasa
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_jikumerasa
+  - action: utter_pantai_jikumerasa
+
+- story: pantai merah putih
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_merah_putih
+  - action: utter_pantai_merah_putih
+
+- story: pantai babunyi
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: pantai_babunyi
+  - action: utter_pantai_babunyi
+
+- story: desa waru jawa
+  steps:
+  - checkpoint: after_wisata_pulau_buru
+  - intent: desa_waru_jawa
+  - action: utter_desa_waru_jawa
+
+# User bertanya tentang atraksi pulau Buru
+- story: atraksi pulau buru
+  steps:
+  - intent: atraksi_pulau_buru
+  - action: utter_atraksi_pulau_buru
+  - intent: pantai
+  - action: utter_pantai
+  - intent: diving_menarik
+  - action: utter_diving_menarik
+
+# User bertanya tentang aktivitas perairan
+- story: aktivitas perairan pulau buru
+  steps:
+  - intent: aktivitas_perairan
+  - action: utter_aktivitas_perairan
+  - checkpoint: after_aktivitas_perairan
+
+- story: air terjun pulau buru
+  steps:
+  - checkpoint: after_aktivitas_perairan
+  - intent: air_terjun
+  - action: utter_air_terjun
+  - checkpoint: after_air_terjun
+
+- story: air terjun waeura
+  steps:
+  - checkpoint: after_air_terjun
+  - intent: air_terjun_waeura
+  - action: utter_air_terjun_waeura
+ 
+- story: air terjun waetina
+  steps:
+  - checkpoint: after_air_terjun
+  - intent: air_terjun_waetina
+  - action: utter_air_terjun_waetina
+
+- story: air terjun waetele
+  steps:
+  - checkpoint: after_air_terjun
+  - intent: air_terjun_waetele
+  - action: utter_air_terjun_waetele
+
+- story: air terjun babunyi
+  steps:
+  - checkpoint: after_air_terjun
+  - intent: air_terjun_babunyi
+  - action: utter_air_terjun_babunyi
+
+- story: diving atau menyelam di pulau buru
+  steps:
+  - checkpoint: after_aktivitas_perairan
+  - or:
+    - intent: diving_menarik
+    - intent: tempat_menyelam
+  - action: utter_diving_menarik
+
+# User bertanya tentang hewan khas pulau Buru
+- story: hewan liar khas pulau buru
+  steps:
+  - intent: hewan_liar
+  - action: utter_hewan_liar
+
+#  User bertanya tentang keamanan pulau Buru
+- story: keamanan pulau buru
+  steps:
+  - intent: keamanan_pulau_buru
+  - action: utter_keamanan_pulau_buru
+
+# User bertanya tentang taman nasional pulau Buru
+- story: taman nasional
+  steps:
+  - intent: taman_nasional
+  - action: utter_taman_nasional
+
+# User bertanya tentang hiking di pulau Buru
+- story: hiking pulau buru
+  steps:
+  - intent: hiking_pulau_buru
+  - action: utter_hiking_pulau_buru
+  - checkpoint: after_hiking_pulau_buru
+
+- story: gunung kapalat mada
+  steps:
+  - checkpoint: after_hiking_pulau_buru
+  - intent: gunung_kapalatmada
+  - action: utter_gunung_kapalatmada
+
+- story: bukit tatanggo
+  steps:
+  - checkpoint: after_hiking_pulau_buru
+  - intent: bukit_tatanggo
+  - action: utter_bukit_tatanggo
+
+# User bertanya tentang hasil alam pulau Buru
+- story: hasil alam pulau buru
+  steps:
+  - intent: hasil_alam
+  - action: utter_hasil_alam
+  - checkpoint: after_hasil_alam
+
+- story: pasar pulau buru
+  steps:
+  - checkpoint: after_hasil_alam
+  - intent: pasar_pulau_buru
+  - action: utter_pasar_pulau_buru
+
+- story: gunung botak
+  steps:
+  - checkpoint: after_hasil_alam
+  - intent: gunung_botak
+  - action: utter_gunung_botak
+
+# User bertanya tentang desa Sanleko di pulau Buru
+- story: desa sanleko
+  steps:
+  - intent: desa_sanleko
+  - action: utter_desa_sanleko
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye

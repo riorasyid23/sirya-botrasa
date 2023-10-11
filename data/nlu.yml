@@ -1,0 +1,588 @@
+version: "3.1"
+
+nlu:
+- intent: menyapa
+  examples: |
+    - hey
+    - heyy
+    - hei
+    - heii
+    - helo
+    - hello
+    - halo
+    - hallo
+    - hai
+    - selamat pagi
+    - selamatpagi
+    - selamat malam
+    - selamatmalam
+    - selamat siang
+    - selamatsiang
+    - selamat sore
+    - selamatsore
+    - pagi
+    - siang
+    - sore
+    - malam
+    - ayo
+    - ayok
+    - /start
+    - start
+
+- intent: selamattinggal
+  examples: |
+    - sampai jumpa
+    - selamat tinggal
+    - dada
+    - semoga hari mu menyenangkan
+    - sampai jumpa nanti
+    - nanti
+    - bye
+    - goodbye
+    - bye bye
+
+- intent: afirmasi
+  examples: |
+    - y
+    - ya
+    - yaa
+    - yo
+    - yoi
+    - betul
+    - betul sekali
+    - tentu
+    - tentu saja
+    - benar
+    - benar sekali
+    - terdengar menarik
+    - sangat menarik
+
+- intent: apresiasi
+  examples: |
+    - ty
+    - makasih
+    - terimakasih
+    - terima kasih
+    - makasih ya
+    - terimakasih ya
+    - terima kasih ya
+    - thank you
+    - thankyou
+    - thanks
+
+- intent: salahkan
+  examples: |
+    - tidak juga
+    - tidak benar
+    - tidak bener
+    - salah
+    - engga juga
+    - enggak benar
+    - ngga juga
+    - ngga benar
+    - ngga bener
+    - nggak juga
+    - nggak benar
+    - nggak bener
+
+- intent: tolakan
+  examples: |
+    - tidak
+    - tidak ada
+    - engga
+    - engga ada
+    - enggak
+    - enggak ada
+    - ga
+    - ga ada
+    - gak
+    - gak ada
+    - gakk
+    - gakk ada
+    - belum ada
+
+
+# Pertanyaan 0
+- intent: aktivitas_pulau_buru
+  examples: |
+    - aktivitas di pulau buru ? 
+    - kegiatan di pulau buru ?
+    - apa yang bisa dilakukan di pulau buru ?
+    - kegiatan apa yang bisa dilakukan di pulau buru ?
+    - hal apa saja yang harus dilakukan setelah sampai di pulau buru ?
+    
+# Pertanyaan 1
+- intent: informasi_pulau_buru
+  examples: |
+    - buru ?
+    - pulau buru ?
+    - apa itu pulau buru?
+
+# Pertanyaan 2
+- intent: lokasi_pulau_buru
+  examples: |
+    - pulau buru dimana ?
+    - letak pulau buru ?
+    - lokasi pulau buru ?
+    - dimana pulau buru berada ?
+    - dimana pulau buru terletak?
+
+# Pertanyaan 3
+- intent: ke_pulau_buru
+  examples: |
+    - ke pulau buru ?
+    - cara pergi ke pulau buru ?
+    - bagaimana cara mencapai pulau buru ?
+
+# Pertanyaan 4
+- intent: atraksi_pulau_buru
+  examples: |
+    - atraksi di pulau buru ?
+    - apa atraksi utama di pulau buru?
+    - hiburan di pulau buru ?
+    - apa hiburan utama di pulau buru?
+
+# Pertanyaan 5
+- intent: cuaca_pulau_buru
+  examples: |
+    - cuaca pulau buru ?
+    - bagaimana cuaca pulau buru ?
+    - kondisi cuaca pulau buru ?
+    - bagaimana cuaca di pulau Buru sepanjang tahun?
+
+# Pertanyaan 6
+- intent: kuliner_pulau_buru
+  examples: |
+    - makanan khas daerah pulau buru ?
+    - kuliner khas daerah di pulau buru ?
+    - apa sajian kuliner khas pulau buru ?
+    - apa makanan khas pulau buru ?
+
+# Pertanyaan 7
+- intent: ibukota_pulau_buru
+  examples: |
+    - dimana ibu kota pulau buru ?
+    - ibu kota kabupaten pulau buru ?
+    - apa nama ibu kota bulau buru?
+
+# Pertanyaan 8
+- intent: sejarah_pulau_buru
+  examples: |
+    - sejarah pulau buru ?
+    - apakah pulau buru memiliki sejarah ?
+    - bagaimana sejarah pulau buru?
+
+# Pertanyaan 9
+- intent: budaya_pulau_buru
+  examples: |
+    - budaya di pulau buru ?
+    - tradisi di pulau buru ?
+    - apa budaya unik di pulau buru ?
+    - apa budaya khas dari pulau buru ?
+    - apa tradisi unik di pulau buru ?
+    - apa tradisi khas dari pulau buru ?
+    - apa budaya dan tradisi unik yang ada di pulau buru?
+
+# Pertanyaan 10
+- intent: bahasa_pulau_buru
+  examples: |
+    - bahasa daerah pulau buru ?
+    - bahasa lokal pulau buru ?
+    - bahasa di pulau buru ?
+    - apa bahasa daerah pulau buru ?
+    - apa itu bahasa buru ?
+    - apa bahasa yang digunakan di pulau buru?
+
+# Pertanyaan 11
+- intent: pantai_baikole
+  examples: |
+    - baikole
+    - apa itu pantai baikole ?
+    - dimana letak pantai baikole ?
+    - apa aktivitas yang bisa dilakukan di pantai baikole?
+
+# Pertanyaan 12
+- intent: diving_menarik
+  examples: |
+    - diving dan snorkeling di pulau buru ?
+    - kenapa diving dan snorkeling di pulau buru sangat bagus ?
+    - apa yang jadi hal menarik dari diving dan snorkeling di pulau buru ?
+    - apa yang membuat pulau buru istimewa bagi penggemar diving atau snorkeling ?
+
+- intent: tempat_menyelam
+  examples: |
+    - menyelam di perairan sekitar pulau buru ?
+    - dimana letak spot menyelam di pulau buru yang sangat bagus ?
+    - apa yang jadi hal menarik dari menyelam di pulau buru ?
+    - apa yang membuat pulau buru istimewa bagi penggemar menyelam ?
+
+# Pertanyaan 13
+- intent: danau_rana
+  examples: |
+    - danau di pulau buru ?
+    - danau rana?
+    - apakah ada danau di pulau buru ?
+    - dimana lokasi danau rana ?
+
+# Pertanyaan 14
+- intent: keamanan_pulau_buru
+  examples: |
+    - apakah pulau buru aman ?
+    - amankah jika tinggal di pulau buru ?
+    - bagaimana tingkat keamanan di pulau buru ?
+    - bagaimana dengan keamanan di pulau buru?
+
+# Pertanyaan 15
+- intent: taman_nasional
+  examples: |
+    - apakah ada taman di pulau buru ?
+    - taman nasional di pulau buru ?
+    - fakta taman nasional di pulau buru ?
+    - apa yang perlu saya ketahui tentang taman nasional di pulau buru?
+
+# Pertanyaan 16
+- intent: air_terjun_waeura
+  examples: |
+    - air terjun
+    - waeura
+    - air terjun waeura
+    - lokasi air terjun waeura ?
+    - letak air terjun waeura ?
+    - bagaimana cara mencapai air terjun waeura?
+
+# Pertanyaan 17
+- intent: wisata_air_waiula
+  examples: |
+    - waiula
+    - objek wisata air waiula ?
+    - objek wisata air di pulau buru
+    - apakah ada objek wisata air di pulau buru ?
+    - apa yang bisa saya lakukan di objek wisata air waiula?
+
+# Pertanyaan 18
+- intent: bukit_dusun_watampuli
+  examples: |
+    - bukit dusun watampuli ?
+    - lokasi dusun watampuli ?
+    - bagaimana cara menuju bukit dusun watampuli?
+
+# Pertanyaan 19
+- intent: bukit_tatanggo
+  examples: |
+    - bukit tatanggo
+    - aktivitas di bukit tatanggo
+    - dimana lokasi bukit tatanggo ?
+    - apakah ada bukit di pulau buru ?
+    - apa hal bagus yang ada di bukit tatanggo ?
+
+# Pertanyaan 20
+- intent: wisata_pulau_buru
+  examples: |
+    - tempat wisata
+    - wisata rekomendasi
+    - wisata di pulau buru ?
+    - tempat wisata rekomendasi di pulau buru ?
+    - wisata apa saja yang ada di pulau buru ?
+    - apa saja tempat wisata yang perlu saya ketahui di pulau buru?
+
+# Pertanyaan 21
+- intent: pantai_lala
+  examples: |
+    - pantai lala
+    - lokasi pantai lala ?
+    - kegiatan apa yang bisa dilakukan di pantai lala ?
+    - bagaimana cara mencapai pantai lala?
+
+#  Pertanyaan 22
+- intent: gunung_kapalatmada
+  examples: |
+    - gunung kapalat mada
+    - apa itu gunung kapalat mada ?
+    - apa fakta tentang gunung kapalat mada ?
+    - apa yang menarik dari gunung kapalat mada?
+
+# Pertanyaan 23
+- intent: pantai_ratu
+  examples: |
+    - pantai ratu
+    - apa itu pantai ratu ?
+    - apa fakta menarik dari pantai ratu ?
+    - apa yang membuat pantai ratu menarik bagi pengunjung?
+
+# Pertanyaan 24
+- intent: pasar_pulau_buru
+  examples: |
+    - pasar di pulau buru
+    - pasar buru
+    - apa itu pasar buru ?
+    - apa saja yang dijual di pasar buru ?
+    - apa yang dapat saya temukan di pasar buru ?
+
+# Pertanyaan 25
+- intent: hasil_alam
+  examples: |
+    - hasil alam
+    - apa saja hasil alam di pulau buru ?
+    - pulau buru penghasil apa ?
+
+# Pertanyaan 26
+- intent: air_terjun_waetele
+  examples: |
+    - air terjun waetele
+    - lokasi air terjun waetele ?
+    - dimana letak air terjun waetele ?
+    - bagaimana cara mencapai air terjun waetele?
+
+# Pertanyaan 27
+- intent: aktivitas_perairan
+  examples: |
+    - aktivitas perairan di pulau buru ?
+    - apakah ada aktivitas pulau perairan di pulau buru ?
+    - apa saja aktivitas perairan yang bisa saya nikmati di pulau buru?
+
+# Pertanyaan 28
+- intent: air_terjun_waetina
+  examples: |
+    - air terjun waetina
+    - air terjun waetina di pulau buru ?
+    - dimana lokasi air terjun waetina di pulau buru ?
+
+# Pertanyaan 29
+- intent: hewan_liar
+  examples: |
+    - hewan liar
+    - hewan liar khas pulau buru ?
+    - apakah ada hewan liar di pulau buru ?
+    - apa hewan liar yang bisa ditemui di pulau buru?
+
+# Pertanyaan 30
+- intent: pantai_talaga
+  examples: |
+    - pantai talaga
+    - dimana pantai talaga berada ?
+    - letak atau lokasi pantai talaga dimana ?
+    - bagaimana cara menuju pantai talaga?
+
+# Pertanyaan 31
+- intent: benteng_voc_kayeli
+  examples: |
+    - benteng voc kayeli
+    - sejarah benteng voc kayeli
+    - dimana lokasi benteng voc kayeli di pulau Buru ?
+
+# Pertanyaan 32
+- intent: wisata_sejarah
+  examples: |
+    - wisata sejarah
+    - wisata sejarah pulau buru ?
+    - apa wisata sejarah yang ada di pulau buru?
+
+# Pertanyaan 33
+- intent: benteng_defensie
+  examples: |
+    - benteng defensie
+    - benteng defensie di pulau buru ?
+    - sejarah benteng defensie di pulau buru?
+
+# Pertanyaan 34
+- intent: pantai
+  examples: |
+    - pantai
+    - pantai pasir putih
+    - apakah di pulau buru terdapat pantai ?
+    - apakah pulau buru memiliki pantai pasir putih?
+    - apa saja pantai pantai yang ada di pulau Buru ?
+
+# Pertanyaan 35
+- intent: pantai_jikumerasa
+  examples: |
+    - pantai jikumerasa
+    - letak atau lokasi pantai jikumerasa ?
+    - dimana letak pantai jikumerasa ?
+    - bagaimana cara menuju pantai jikumerasa?
+
+# Pertanyaan 36
+- intent: suku_pulau_buru
+  examples: |
+    - suku di pulau buru
+    - suku asli penduduk pulau buru ?
+    - apa nama suku asli di pulau buru?
+
+# Pertanyaan 37
+- intent: masyarakat_adat
+  examples: |
+    - masyarakat adat
+    - masyarakat adat pulau buru
+    - siapa masyarakat adat di pulau buru ?
+    - seperti apa masyarakat adat di pulau buru ?
+    - apa yang perlu saya ketahui tentang masyarakat adat di pulau buru?
+
+# Pertanyaan 38
+- intent: asal_nama_buru
+  examples: |
+    - asal nama buru
+    - asal nama pulau buru
+    - asal usul pulau buru
+    - apa nama asli pulau buru ?
+    - kenapa dinamakan pulau buru ?
+
+# Pertanyaan 39
+- intent: pantai_merah_putih
+  examples: |
+    - pantai merah putih
+    - pantai merah putih di pulau buru ?
+    - dimana lokasi pantai merah putih di pulau buru ?
+
+# Pertanyaan 40
+- intent: hiking_pulau_buru
+  examples: |
+    - hiking
+    - hiking pulau buru
+    - hiking di pulau buru ?
+    - apakah ada tempat hiking di pulau buru ?
+    - apa yang menarik dari pulau buru bagi penggemar hiking?
+
+# Pertanyaan 41
+- intent: desa_sanleko
+  examples: |
+    - desa sanleko
+    - dimana lokasi desa sanleko ?
+    - dimana letak desa sanleko ?
+    - bagaimana cara mencapai desa sanleko?
+
+# Pertanyaan 42
+- intent: gua_pulau_buru
+  examples: |
+    - gua
+    - gua-gua
+    - gua gua
+    - gua gua di pulau buru ?
+    - apakah ada gua di pulau buru ?
+    - apakah ada gua-gua yang bisa saya jelajahi di pulau buru?
+
+# Pertanyaan 43
+- intent: air_terjun_babunyi
+  examples: |
+    - air terjun babunyi
+    - air terjun babunyi di pulau buru ?
+    - dimana lokasi air terjun babunyi ?
+
+# Pertanyaan 44
+- intent: pantai_babunyi
+  examples: |
+    - pantai babunyi
+    - aktivitas di pantai babunyi
+    - kegiatan di pantai babunyi
+    - dimana lokasi pantai babunyi ?
+    - apa saja aktivitas yang dapat dilakukan di pantai babunyi ?
+    - apa aktivitas yang bisa dilakukan di pantai babunyi?
+
+# Pertanyaan 45
+- intent: desa_waru_jawa
+  examples: |
+    - desa waru jawa
+    - lokasi desa waru jawa
+    - letak desa waru jawa
+    - dimana lokasi atau letak desa waru jawa ?
+    - bagaimana cara menuju desa waru?
+
+# Pertanyaan 46
+- intent: festival_tahunan
+  examples: |
+    - festival
+    - festival tahunan
+    - festival tahunan
+    - festival tahunan pulau buru
+    - seperti apa festival tahunan di pulau buru ?
+    - apa yang perlu saya ketahui tentang festival tahunan di pulau buru?
+
+# Pertanyaan 47
+- intent: gunung_botak
+  examples: |
+    - gunung botak
+    - ada aktivitas apa di gunung botak ?
+    - tempat penambangan di pulau buru ?
+
+# Pertanyaan 48
+- intent: transportasi_pulau_buru
+  examples: |
+    - transportasi
+    - transportasi di pulau buru
+    - keadaan transportasi di pulau buru ?
+    - fasilitas transportasi di pulau buru ?
+    - bagaimana dengan transportasi di pulau buru?
+
+# Pertanyaan 49
+- intent: kehidupan_penduduk
+  examples: |
+    - kehidupan sehari-hari
+    - kehidupan sehari hari
+    - kehidupan sehari hari penduduk pulau buru
+    - bagaimana kehidupan sehari hari penduduk pulau buru ?
+    - apa yang perlu saya tahu tentang kehidupan sehari-hari penduduk pulau buru?
+
+# Pertanyaan 32
+- intent: tempat_bersejarah
+  examples: |
+    - tempat bersejarah
+    - tempat bersejarah di pulau buru ?
+    - apakah ada tempat bersejarah di pulau buru ?
+    - apa saja tempat bersejarah yang bisa saya kunjungi di pulau buru?
+
+# Pertanyaan 50
+- intent: air_terjun
+  examples: |
+    - air terjun di pulau buru ?
+    - apakah ada air terjun di pulau buru ?
+    - dimana saya dapat menemukan air terjun di pulau buru ?
+
+
+# - intent: mood_bagus
+#   examples: |
+#     - baik
+#     - alhamdulillah
+#     - bagus
+#     - luar biasa
+#     - biasa saja
+#     - feeling like a king
+#     - wonderful
+#     - I am feeling very good
+#     - I am great
+#     - I am amazing
+#     - I am going to save the world
+#     - super stoked
+#     - extremely good
+#     - so so perfect
+#     - so good
+#     - so perfect
+
+# - intent: mood_unhappy
+#   examples: |
+#     - my day was horrible
+#     - I am sad
+#     - I don't feel very well
+#     - I am disappointed
+#     - super sad
+#     - I'm so sad
+#     - sad
+#     - very sad
+#     - unhappy
+#     - not good
+#     - not very good
+#     - extremly sad
+#     - so saad
+#     - so sad
+
+- intent: bot_challenge
+  examples: |
+    - kamu ?
+    - kamu siapa ?
+    - kamu itu apa ?
+    - apa kamu bot?
+    - apa kamu manusia?
+    - apakah saya berbicara dengan bot?
+    - apakah saya berbicara dengan manusia?
+    - kamu bot atau manusia ?
+    - fungsi kamu apa?
+    - apa fungsi kamu?
+

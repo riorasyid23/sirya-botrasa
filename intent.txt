@@ -1,0 +1,150 @@
+- menyapa //
+- selamattinggal //
+- afirmasi //
+- apresiasi //
+- tolakan //
+- informasi_pulau_buru //
+- lokasi_pulau_buru //
+- ke_pulau_buru //
+- atraksi_pulau_buru //
+- cuaca_pulau_buru //
+- ibukota_pulau_buru //
+- sejarah_pulau_buru //
+- budaya_pulau_buru //
+- bahasa_pulau_buru //
+- pantai_baikole //
+- diving_menarik //
+- tempat_menyelam //
+- danau_rana //
+- keamanan_pulau_buru //
+- taman_nasional //
+- air_terjun_waeura //
+- wisata_air_waiula //
+- bukit_dusun_watampuli // 
+- bukit_tatanggo //
+- wisata_pulau_buru //
+- pantai_lala //
+- gunung_kapalatmada //
+- pantai_ratu //
+- pasar_pulau_buru //
+- hasil_alam //
+- air_terjun_waetele //
+- aktivitas_perairan //
+- air_terjun_waetina //
+- hewan_liar //
+- pantai_talaga //
+- benteng_voc_kayeli //
+- wisata_sejarah //
+- benteng_defensie //
+- pantai //
+- pantai_jikumerasa //
+- suku_pulau_buru //
+- masyarakat_adat //
+- asal_nama_buru //
+- pantai_merah_putih //
+- hiking_pulau_buru //
+- desa_sanleko //
+- gua_pulau_buru //
+- air_terjun_babunyi //
+- pantai_babunyi //
+- desa_waru_jawa //
+- festival_tahunan //
+- gunung_botak //
+- transportasi_pulau_buru //
+- kehidupan_penduduk //
+- tempat_bersejarah //
+- air_terjun //
+- bot_challenge //
+
+ONLY WISATA:
+========================================
+- danau_rana
+- wisata_air_waiula
+- bukit_dusun_watampuli
+- bukit_tatanggo
+- pantai_lala
+- pantai_ratu
+- pantai_talaga
+- pantai_jikumerasa
+- pantai_merah_putih
+- pantai_babunyi
+- desa_waru_jawa
+
+
+
+TODO:
+========================================
+Aktivitas yang bisa dilakukan di Pulau Buru, coba jelasin
+
+Di pulau Buru, Anda dapat melakukan berbagai aktivitas tergantung tujuan Anda. Jika ingin berkunjung ke pulau Buru sebagai wisatawan, Saya merekomendasikan anda untuk mengunjungi spot wisata perairan eksotis, wisata di tempat bersejarah, menyelam atau berenang di pantai, dan lain sebagai nya. Anda juga harus memperhatikan transportasi yang akan Anda gunakan supaya perjalanan berkeliling di pulau Buru dapat memberikan Anda kenyamanan dan pengalaman yang menyenangkan 
+
+- Jumlah Penduduk
+- Jumlah Kabupaten di Pulau Buru
+- Jumlah Kecamatan di Kab. Buru Selatan
+- Jumlah Desa di Kab. Buru Selatan
+- Marga yang terdapat di suku kayeli
+- Pakaian adat pulau Buru
+- Acara adat
+- Kendaraan laut untuk menyebrang ke pulau Buru
+- Tentang Imigran
+- Pemekaran pulau Buru
+- Bupati pertama Kab. Buru
+
+
+
+========================================
+- menyapa
+- selamattinggal
+- afirmasi
+- apresiasi
+- tolakan
+- informasi_pulau_buru
+- lokasi_pulau_buru
+- ke_pulau_buru
+- atraksi_pulau_buru
+- cuaca_pulau_buru
+- ibukota_pulau_buru
+- sejarah_pulau_buru
+- budaya_pulau_buru
+- bahasa_pulau_buru
+- pantai_namalatu
+- diving_menarik
+- museum_pulau_buru
+- keamanan_pulau_buru
+- taman_nasional
+- air_terjun_waeapo
+- danau_rana_mese
+- desa_fena_leisela
+- outdoor_pulau_buru
+- wisata_pulau_buru
+- desa_wamlana
+- gunung_kapalat_mada
+- pantai_tuban_terbakar
+- pasar_pulau_buru
+- festival_budaya_tahunan
+- air_terjun_waimarang
+- aktivitas_perairan
+- tempat_camping
+- hewan_liar
+- pulau_manipa
+- istana_maulana
+- wisata_sejarah
+- festival_musik_seni
+- pantai
+- pantai_wae_sama
+- pusat_belanja
+- masyarakat_adat
+- fasilitas_akomodasi
+- pulau_kecil
+- hiking_pulau_buru
+- desa_waekase
+- gua_pulau_buru
+- tempat_menyelam
+- sungai_salawi
+- desa_wae_sama
+- kerajinan_tangan
+- play_golf
+- transportasi_pulau_buru
+- kehidupan_penduduk
+- tempat_bersejarah
+- bot_challenge
