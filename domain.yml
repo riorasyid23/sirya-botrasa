@@ -89,6 +89,11 @@ responses:
   - text: "Mohon maaf apabila respon yang saya kirim tidak sesuai dengan pertanyaan Anda, saya adalah sebuah Chatbot Layanan/Portal Informasi yang dikhususkan untuk menjawab pertanyaan seputar Pulau Buru. Saya menyadari bahwa masih banyak yang perlu dikembangkan pada sistem saya. Untuk itu Anda bisa menghubungi Developer/Pengembang dari sistem saya. Terimakasih atas perhatiannya\n\nApakah ada hal lain yang ingin anda tanyakan lagi ?"
   - text: "Mohon maaf jika jawaban yang saya berikan tidak akurat dengan pertanyaan yang Anda berikan, saya hanyalah sebuah sistem Chatbot Layanan/Portal Informasi yang dibuat untuk menjawab pertanyaan seputar Pulau Buru. Saya menyadari bahwa masih banyak yang perlu dikembangkan pada sistem saya. Maka dari itu, apabila berkenan, Anda bisa menghubungi Developer/Pengembang dari sistem saya. Terimakasih atas perhatiannya\n\nApakah ada hal lain yang ingin anda tanyakan lagi ?"
 
+  utter_tolakan:
+  - text: "Selamat Tinggal, semoga hari mu menyenangkan"
+  - text: "Selamat Tinggal, Terimakasih sudah bertanya"
+  - text: "Selamat Tinggal"
+
   utter_bot_challenge:
   - text: "Halo, selamat datang di Burunese Bot, saya adalah Chatbot Layanan/Portal Informasi yang dibuat untuk menjawab informasi seputar pulau Buru di Provinsi Maluku, Indonesia.\n\n Silahkan bertanya apa saja kepada saya :D"
   - text: "Halo, selamat datang di Burunese Bot, perkenalkan saya adalah Chatbot Layanan/Portal Informasi yang dibuat untuk menjawab informasi informasi yang ada di pulau Buru di Provinsi Maluku, Indonesia.\n\n Apa yang saya bisa bantu untuk Anda hari ini ?"

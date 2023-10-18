@@ -39,6 +39,8 @@ stories:
   steps:
   - intent: informasi_pulau_buru
   - action: utter_informasi_pulau_buru
+  - intent: aktivitas_pulau_buru
+  - action: utter_aktivitas_pulau_buru
   - intent: ibukota_pulau_buru
   - action: utter_ibukota_pulau_buru
   - intent: lokasi_pulau_buru
